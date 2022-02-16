@@ -20,11 +20,5 @@
             $this->nLados = count($lados);
             $this->lados = $lados;
         }
-
-        public function calcularPer(){
-            $this->perimetro = array_sum($this->lados);
-            return $this->perimetro;
-        }
-
     }
 ?>
